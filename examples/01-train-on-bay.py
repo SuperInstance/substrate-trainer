@@ -7,7 +7,7 @@ Scenario 03 (The Convoy) implemented as a trainer.
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "quilt-substrate", "src"))
-from substrate import Substrate, Cell
+from quilt_substrate.substrate import Substrate, Cell
 from trainer import Trainer
 
 

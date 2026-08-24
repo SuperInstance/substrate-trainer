@@ -24,7 +24,7 @@ import os
 # We depend on quilt-substrate. Try to import it; if not available, use a fallback.
 try:
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "quilt-substrate", "src"))
-    from substrate import Substrate, Cell
+    from quilt_substrate.substrate import Substrate, Cell
     HAS_SUBSTRATE = True
 except ImportError:
     HAS_SUBSTRATE = False
